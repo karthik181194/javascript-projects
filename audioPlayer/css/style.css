@@ -1,0 +1,106 @@
+html,body{
+}
+body{
+    background-color:#cecece;
+    overflow-x: hidden;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+.player-container{
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    background: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0,0.5);
+}
+.music-image img{
+    border-radius: 50%;
+    width: 150px;
+    object-fit: cover;
+    height: 150px;
+}
+.controls_dsg{
+    background:transparent;
+    font-size:22px;
+    color:#5f5f5f;
+    border:none;
+    cursor: pointer;
+}
+.player-controls{
+    margin:20px 0px;
+}
+.playBtn{
+    font-size: 24px;
+    /* vertical-align: middle; */
+    background: #d41b4c;
+    color: #fff;
+    padding: 13px 15px;
+    border-radius: 50%;
+    text-align: center;
+    padding-left: 18px;
+    margin: 0px 50px;
+}
+.nowPlaying{
+    margin-bottom:0px;
+    color: #d41b4c;
+    font-weight: bold;
+}
+.music-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size:20px;
+    font-weight: bold;
+}
+.player-progress{
+    width: calc(100% - 60px);
+    height: 5px;
+    background: #d3d3d3;
+    margin: 0px auto;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.progressvalue{
+    background: #d41b4c;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+}
+.timer{
+    display: inline-block;
+    margin-right: 10px;
+}
+.progressRange{
+    width: calc(100% - 70px);
+    display: inline-block;
+}
+.rangeSlider{
+    width: 100%;
+}
+.progressRange input[type='range'] {
+    overflow: hidden;
+    width: 100%;
+    -webkit-appearance: none;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+  }
+  
+ .progressRange input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: #13bba4;
+    margin-top: -1px;
+  }
+  
+  .progressRange input[type='range']::-webkit-slider-thumb {
+    width: 8px;
+    -webkit-appearance: none;
+    height: 10px;
+    cursor: pointer;
+    background: #bdbcbc;
+    /* border-radius: 10px; */
+    z-index: 1111;
+    box-shadow: -300px 0 0 300px #d41b4c;
+  }
