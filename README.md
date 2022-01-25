@@ -13,8 +13,8 @@
 ![demo](./exchangeRateCalculator/img/calc.png)
 
 <div align="center">
-    <h1>Exchange Rate Calulator</h1>
-    <p>This is a simple exchange rate calculator built with javascript</p>
+    <h1>Expense Analyzer</h1>
+    <p>This is a simple expense analyzer built with javascript</p>
 </div>
 
 ![demo](./expenseAnalyzer/img/expense.png)
